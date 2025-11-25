@@ -39,3 +39,79 @@ This tool parses HTML content using **Jsoup** and inspects embedded scripts, for
 ---
 
 ## 📦 Project Structure
+/src
+/main
+/java
+/scanner
+PaymentScanner.java
+HtmlParser.java
+SignatureMatcher.java
+/resources
+signatures.json
+README.md
+
+
+---
+
+## 📝 Sample Output
+
+
+Scanning: https://example.com/checkout
+
+Detected Payment Gateways:
+
+Razorpay (script matched: razorpay.js)
+
+Stripe (keyword matched: stripe.checkout)
+
+Suspicious Elements:
+
+Inline JS modifying payment form
+
+
+---
+
+## ⚙️ How to Run
+```bash
+git clone https://github.com/<your-username>/payment-gateway-detector
+cd payment-gateway-detector
+javac -cp jsoup.jar src/main/java/scanner/*.java
+java -cp .:jsoup.jar scanner.PaymentScanner https://target-website.com
+
+📘 Use Cases
+
+Basic security validation
+
+QA testing on e-commerce platforms
+
+Detecting fraudulent payment pages
+
+Educational cybersecurity tool
+
+Automated auditing of payment flows
+
+🛡️ Limitations
+
+Signature-based, not ML-based
+
+May not detect heavily obfuscated or hidden payment scripts
+
+Requires stable internet connectivity for scanning
+
+🤝 Contributions
+
+Pull requests, feature suggestions, and improvements are welcome.
+If you’d like help adding more payment providers, feel free to open an issue.
+
+📄 License
+
+MIT License
+
+👤 Author
+
+Maahi Agarwal
+B.Tech (Hons.) CSE – Cyber Security & Digital Forensics
+GitHub: https://github.com/
+<your-username>
+LinkedIn: https://linkedin.com/in/
+<your-link>' 
