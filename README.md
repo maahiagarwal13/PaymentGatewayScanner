@@ -104,7 +104,3 @@ MIT License
 
 Maahi Agarwal
 B.Tech (Hons.) CSE – Cyber Security & Digital Forensics
-GitHub: https://github.com/
-<your-username>
-LinkedIn: https://linkedin.com/in/
-<your-link>' 
