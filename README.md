@@ -71,13 +71,6 @@ Inline JS modifying payment form
 
 ---
 
-## ⚙️ How to Run
-```bash
-git clone https://github.com/<your-username>/payment-gateway-detector
-cd payment-gateway-detector
-javac -cp jsoup.jar src/main/java/scanner/*.java
-java -cp .:jsoup.jar scanner.PaymentScanner https://target-website.com
-
 📘 Use Cases
 
 Basic security validation
